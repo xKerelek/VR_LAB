@@ -1,4 +1,5 @@
 # 🧑‍💻 Laboratorium z Wirtualnej Rzeczywistości
+## Kolejne laboratoria będą w osobych branch'ach
 
 ## 👨‍🏫 Autor
 **Imię i nazwisko:** Karol Nowak  
