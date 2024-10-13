@@ -1,8 +1,10 @@
-# Wirtualna Rzeczywistość w Unity (C#) - Laboratorium 1
+# 🧑‍💻 Laboratorium z Wirtualnej Rzeczywistości
+## Kolejne laboratoria będą w osobych branch'ach
 
-## Cel
-Podczas tego laboratorium stworzyliśmy prostą scenę, w której:
-- Zbudowano ścianę z sześcianów.
-- Dodano fizykę do obiektów.
-- Utworzono pocisk, który po zderzeniu ze ścianą powoduje, że wszystkie sześciany się rozpadają.
+## 👨‍🏫 Autor
+**Imię i nazwisko:** Karol Nowak  
+**Numer albumu:** 36782  
 
+## 🛠️ Technologia
+- 🕹️ Unity 3D
+- 💻 C#
