@@ -7,11 +7,7 @@ using UnityEngine;
 
 public class PlayerCollisions : MonoBehaviour
 {
-    bool doorIsOpen = false;
-    float doorTimer = 0.0f;
-    public float doorOpenTime = 3.0f;
-    public AudioClip doorOpenSound;
-    public AudioClip doorShutSound;
+    private GameObject currentDoor;
 
     // Start is called before the first frame update
     void Start()
@@ -22,21 +18,16 @@ public class PlayerCollisions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        if (hit.gameObject.tag == "playerDoor" && doorIsOpen == false)
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.forward, out hit, 3)) 
+            // zmiana z 3 na 33 powoduje otwarcie drzwi z wiêkszej odleg³oœci gdy na nie patrzymy
         {
-            OpenDoor(hit.gameObject);
+            if (hit.collider.gameObject.tag == "playerDoor")
+            {
+                currentDoor = hit.collider.gameObject;
+                currentDoor.SendMessage("DoorCheck");
+            }
         }
     }
 
-    void OpenDoor(GameObject door)
-    {
-        doorIsOpen = true;
-        door.GetComponent<AudioSource>().PlayOneShot(doorOpenSound);
-        door.transform.parent.GetComponent<Animation>().Play("dooropen");
-    }
 }
