@@ -20,7 +20,10 @@ public class TriggerZone : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            transform.Find("door").SendMessage("DoorCheck");
+            if (Inventory.charge == 4)
+            {
+                transform.Find("door").SendMessage("DoorCheck");
+            }
         }
     }
 }
