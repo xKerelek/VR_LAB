@@ -359,6 +359,7 @@
 "Assets/MyAssets/Scripts/Inventory.cs"
 "Assets/MyAssets/Scripts/PlayerCollisions.cs"
 "Assets/MyAssets/Scripts/PowerCell.cs"
+"Assets/MyAssets/Scripts/TextHints.cs"
 "Assets/MyAssets/Scripts/TriggerZone.cs"
 "Assets/Terrain/Terrain/Water/Scripts/Displace.cs"
 "Assets/Terrain/Terrain/Water/Scripts/GerstnerDisplace.cs"
