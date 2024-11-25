@@ -26,7 +26,7 @@ public class TriggerZone : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            if (Inventory.charge == 4)
+            if (Inventory.charge == 4) // Inventory.charge == 4
             {
                 transform.Find("door").SendMessage("DoorCheck");
                 if (GameObject.Find("PowerGUI"))

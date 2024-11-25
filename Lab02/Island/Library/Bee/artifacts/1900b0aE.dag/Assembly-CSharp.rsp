@@ -357,6 +357,7 @@
 -analyzer:"C:/Program Files/Unity 2022.3.43f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/MyAssets/Scripts/DoorManager.cs"
 "Assets/MyAssets/Scripts/Inventory.cs"
+"Assets/MyAssets/Scripts/Matches.cs"
 "Assets/MyAssets/Scripts/PlayerCollisions.cs"
 "Assets/MyAssets/Scripts/PowerCell.cs"
 "Assets/MyAssets/Scripts/TextHints.cs"
