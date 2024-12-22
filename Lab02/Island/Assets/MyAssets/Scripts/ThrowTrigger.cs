@@ -22,7 +22,7 @@ public class ThrowTrigger : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            CoconutThrower.canThrow = true;
+            //CoconutThrower.canThrow = true;
             crosshair.enabled = true;
         }
     }
@@ -30,7 +30,7 @@ public class ThrowTrigger : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            CoconutThrower.canThrow = false;
+            //CoconutThrower.canThrow = false;
             crosshair.enabled=false;
         }
     }
