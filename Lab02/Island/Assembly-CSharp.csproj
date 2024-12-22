@@ -62,11 +62,13 @@
   <ItemGroup>
     <Compile Include="Assets\Terrain\Terrain\Water\Scripts\GerstnerDisplace.cs" />
     <Compile Include="Assets\MyAssets\Scripts\PlayerCollisions.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\MainMenuBtns.cs" />
     <Compile Include="Assets\MyAssets\Scripts\CoconutWin.cs" />
     <Compile Include="Assets\MyAssets\Scripts\TextHints.cs" />
     <Compile Include="Assets\MyAssets\Scripts\TriggerZone.cs" />
     <Compile Include="Assets\MyAssets\Scripts\DoorManager.cs" />
     <Compile Include="Assets\MyAssets\Scripts\ThrowTrigger.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\QuitGame.cs" />
     <Compile Include="Assets\MyAssets\Scripts\TidyObject.cs" />
     <Compile Include="Assets\Terrain\Terrain\Water\Scripts\WaterTile.cs" />
     <Compile Include="Assets\Terrain\Terrain\Water\Scripts\MeshContainer.cs" />
@@ -74,6 +76,7 @@
     <Compile Include="Assets\Terrain\Terrain\Water\Scripts\PlanarReflection.cs" />
     <Compile Include="Assets\MyAssets\Scripts\PowerCell.cs" />
     <Compile Include="Assets\Terrain\Terrain\Water\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\MyAssets\Scripts\Inventory.cs" />
     <Compile Include="Assets\MyAssets\Scripts\TargetCollision.cs" />
     <Compile Include="Assets\Terrain\Terrain\Water\Scripts\Water.cs" />
